@@ -109,7 +109,7 @@ char avalanchExec(tag_t execTag)
 			printf("%d ", s->n);
 			s = s->next;
 		}
-		printf("\n");
+		printf("\n");  //Конец строки
 	}	
 */	////////////////////////////////////////////
 	action = execTag.subscription;
